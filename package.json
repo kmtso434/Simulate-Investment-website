@@ -1,0 +1,8 @@
+{
+    "scripts": {
+        "start": "Simulate-Investment-website app.js"
+    },
+    "dependencies": {
+        "solid-js": "^1.9.3"
+    }
+}
