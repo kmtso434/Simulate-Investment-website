@@ -1,22 +1,15 @@
-import { createSignal } from "solid-js";
-import "./app.css";
+import type { Component } from 'solid-js';
+import { css } from '../styled-system/css';
+import logo from './logo.svg';
+import { Button } from './components/ui/button';
 
-export default function App() {
-  const [count, setCount] = createSignal(0);
-
+const App: Component = () => {
   return (
-    <main>
-      <h1>Hello world!</h1>
-      <button class="increment" onClick={() => setCount(count() + 1)} type="button">
-        Clicks: {count()}
-      </button>
-      <p>
-        Visit{" "}
-        <a href="https://start.solidjs.com" target="_blank">
-          start.solidjs.com
-        </a>{" "}
-        to learn how to build SolidStart apps.
-      </p>
-    </main>
+    <div>
+      <div class={css({ fontSize: "2xl", fontWeight: 'bold' })}>Hello 🐼!</div>
+      <Button>sdf</Button> 
+    </div>
   );
-}
+};
+
+export default App;
