@@ -22,6 +22,7 @@
     "@ark-ui/solid": "^4.4.0",
     "@pandacss/core": "^0.47.1",
     "@solidjs/router": "^0.15.1",
+    "prettier": "^3.3.3",
     "solid": "^0.2.1",
     "solid-js": "^1.9.3",
     "vite-tsconfig-paths": "^5.1.1"
